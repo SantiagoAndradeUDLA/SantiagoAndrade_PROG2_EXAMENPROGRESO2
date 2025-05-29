@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class SA_Cuenta {
 
@@ -10,12 +10,22 @@ public class SA_Cuenta {
     public float ret;
     public int transac;
 
-    public void SA_Cuenta(float saldo, float tasa){
+    public void SA_Cuenta(float saldo, float tasa){// constructor
         this.saldo = saldo;
         this.tasa = tasa;
     }
 
     public float Cuenta(float saldo, float tasa){
+
+
+        System.out.println("Escriba su saldo actual");
+
+       // Scanner saldo = scanner.nextline();
+
+        System.out.println("Escriba su tasa");
+
+        // Scanner tasa = scanner.nextline();
+
 
         return 0;
     }
@@ -45,7 +55,7 @@ public class SA_Cuenta {
     }
 
 }
-
+/*
 class SA_CuentaAhorros extends SA_Cuenta{
 
     public boolean activa = false ;
@@ -58,6 +68,6 @@ class SA_CuentaAhorros extends SA_Cuenta{
 
 
     }
-
-
 }
+
+ */
